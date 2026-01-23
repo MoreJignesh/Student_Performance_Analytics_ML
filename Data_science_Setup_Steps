@@ -1,0 +1,38 @@
+ # Project work log
+
+## 2026-01-22
+1. open anaconda prompt C:\Users\Jignesh\LearnWithMJ\Data_Science  
+2. code .  ---this will launch vs code
+3. conda create -p venv python==3.8 -y  this will create 
+4. conda activate venv/ ---activating the env
+5. git init
+6. git step-up did pull and push 
+7. setup.py
+8. created files as requirement.txt, setup.py, src inti folder
+9. pip install -r requirement.txt
+10. git push --again...
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21. 
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
