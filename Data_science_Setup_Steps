@@ -10,9 +10,11 @@
 7. setup.py
 8. created files as requirement.txt, setup.py, src inti folder
 9. pip install -r requirement.txt
-10. git push --again...
+10. git push -u origin main --again...
 11.
 12.
+When you open it after few days, follow step 1, 4, 
+pip install -r requirements.txt
 13.
 14.
 15.
@@ -35,4 +37,29 @@
 32.
 33.
 34.
-35.
+35. Research - EDA > Research - Model Training
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------
+
+Total Score is continouse Value -  Regression problem , also use random forest 
+Categorical  features : One hot encoding >> Standardization >>> Normalization (all should be in pipeline) --comes from sklearn
+Numerical Features : Standard Scaller
+Many many categorical feature: Target Guided ordinal encoding
+
+
+Streamlit : This will help you to provide a web platform in few lines for your Python project.
