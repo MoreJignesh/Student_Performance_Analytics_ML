@@ -16,22 +16,22 @@
 When you open it after few days, follow step 1, 4, 
 pip install -r requirements.txt
 13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21. 
-22.
-23.
-24.
-25.
-26.
-27.
+14.src > Components > __init__.py
+15.src > Components > data_ingestion.py 
+16.src > Components > data_transformation.py
+17.src > Components > model_trainer.py
+18.src > Pipeline > train_pipeline.py
+19.src > Pipeline > predict_pipeline.py
+20.src > Pipeline > __init__.py
+21.src > exception.py > custom msg on error function
+22.src > logger.py > It will log everything that's performed
+23.src > utils.py
+24.src > exception.py
+25.notebook > data > rawdatafile.csv
+26.notebook > EDA.ipynd
+27.notebook > Model_training.ipynd
 28.
-29.
+29.updated data_ingestion file with class methods
 30.
 31.
 32.
@@ -39,6 +39,17 @@ pip install -r requirements.txt
 34.
 35. Research - EDA > Research - Model Training
 
+
+This project will cover as below :
+
+Setup project with Github
+Data Ingestion
+Data transformation
+Model Trainer
+Model evaluation
+Model deployment
+CI/CD pipeliene - github actiona
+deployment AWS
 
 
 
