@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
 from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
+
+# from src.components.model_trainer import model
 
 @dataclass
 class DataIngestionConfig:
@@ -44,7 +47,7 @@ class DataIngestion:
                 self.ingestion_config.test_data_path
             )
         except Exception as e:
-            raise CustomException
+            raise CustomException(e,sys)
             
 
 if __name__=="__main__":

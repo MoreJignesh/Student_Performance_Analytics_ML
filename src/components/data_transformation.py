@@ -38,7 +38,7 @@ class DataTransformation:
             cat_pipeline=Pipeline(
                 steps=[('imputer',SimpleImputer(strategy='most_frequent')),
                        ('one_Hot_encoder',OneHotEncoder()),
-                       ('scaler',StandardScaler())]
+                       ('scaler',StandardScaler(with_mean=False))]
             )
 
             logging.info(f"Categorical Columns missing values, one hot encoding and standard scaler completed on categorical columns : {categorical_columns}")
