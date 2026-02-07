@@ -15,7 +15,7 @@
 12.
 When you open it after few days, follow step 1, 4, 
 pip install -r requirements.txt
-13.
+13.Research - EDA > Research - Model Training
 14.src > Components > __init__.py
 15.src > Components > data_ingestion.py 
 16.src > Components > data_transformation.py
@@ -32,12 +32,17 @@ pip install -r requirements.txt
 27.notebook > Model_training.ipynd
 28.
 29.updated data_ingestion file with class methods
-30.
+30. Run file with "python src\components\data_ingestion.py"
 31.
-32.
-33.
-34.
-35. Research - EDA > Research - Model Training
+32.Tried multiple algorythm
+33.Hyper parameter tuning - using params
+34.Got the best Model > will perform prediction pipeline (Web application)
+35. 
+36. 
+37. 
+38. 
+39. 
+
 
 
 This project will cover as below :
